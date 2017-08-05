@@ -9,7 +9,7 @@
       {% for bookinst in bookinstance_list %} 
       <li class="{% if bookinst.is_overdue %}text-danger{% endif %}">
         <a href="{% url 'book-detail' bookinst.book.pk %}">{{bookinst.book.title}}</a> ({{ bookinst.due_back }}) - {{ bookinst.borrower }} 
-           | <a href =http://127.0.0.1:8000/admin/catalog/bookinstance/{{bookinst.id}}/change>Return</a> | 
+           | <a href =https://desolate-gorge-75783.herokuapp.com/admin/catalog/bookinstance/{{bookinst.id}}/change>Return</a> | 
            {% if perms.catalog.can_mark_returned %} <a href="{% url 'renew-book-librarian' bookinst.id %}">Renew</a>  {% endif %}
       </li>
       {% endfor %}
