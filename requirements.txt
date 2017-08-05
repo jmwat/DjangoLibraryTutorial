@@ -39,7 +39,6 @@ prompt-toolkit==1.0.15
 psycopg2==2.7.3
 pygame==1.9.3
 Pygments==2.2.0
-pypiwin32==220
 python-dateutil==2.6.1
 pytz==2017.2
 pyzmq==16.0.2
@@ -50,8 +49,6 @@ selenium==3.4.3
 simplegeneric==0.8.1
 simplejson==3.11.1
 six==1.10.0
-SQLAlchemy==1.1.12
-sqlalchemy-migrate==0.11.0
 sqlparse==0.2.3
 Tempita==0.5.2
 testpath==0.3.1
@@ -67,5 +64,4 @@ whitenoise==3.3.0
 Whoosh==2.7.4
 widgetsnbextension==2.0.0
 WTForms==2.1
-yahoo-finance==1.4.0
 zope.interface==4.4.2
